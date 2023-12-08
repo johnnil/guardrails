@@ -1,0 +1,14 @@
+# define limits
+define user ask politics
+    "politics"
+    "what are your political beliefs?"
+    "thoughts on the president?"
+    "left wing"
+    "right wing"
+
+define bot answer politics
+    "I'm sorry, __User__. I'm afraid I can't do that."
+
+define flow politics
+    user ask politics
+    bot answer politics
